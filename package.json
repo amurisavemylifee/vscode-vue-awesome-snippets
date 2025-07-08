@@ -1,0 +1,40 @@
+{
+  "name": "vscode-vue-awesome-snippets",
+  "displayName": "vscode-vue-awesome-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/script-base.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/script-base.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/template.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Vue SFC Template": {
+    "prefix": "vtemplate",
+    "body": ["<template>\n$1\n</template>"]
+  },
+
+  "Vue SFC Script": {
+    "prefix": "vscript",
+    "body": ["<script lang=\"ts\" setup>\n$1\n</script>"]
+  },
+
+  "Vue SFC Style": {
+    "prefix": "vstyle",
+    "body": ["<style lang=\"scss\" scoped>\n$0\n</style>"]
+  },
+
+  "Vue SFC Base": {
+    "prefix": "vbase",
+    "body": [
+      "<script lang=\"ts\" setup>\n\n</script>\n",
+      "<template>\n$1\n</template>"
+    ]
+  },
+
+  "Vue SFC Base With Style": {
+    "prefix": "vbase:full",
+    "body": [
+      "<script lang=\"ts\" setup>\n\n</script>\n",
+      "<template>\n$1\n</template>\n",
+      "<style lang=\"scss\" scoped>\n\n</style>"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Vue Ref With Generic": {
+    "prefix": "@ref:generic",
+    "body": ["ref<${1:unknown}>(${0:null})"]
+  },
+
+  "Vue Reactive With Generic": {
+    "prefix": "@reactive:generic",
+    "body": "reactive<${1:object}>({$0})"
+  },
+
+  "Vue Computed With Generic": {
+    "prefix": "@computed:generic",
+    "body": "computed<${1:unknown}>(()=>{\n\treturn $0\n})"
+  },
+
+  "defineProps Full": {
+    "prefix": "@defineProps",
+    "body": "const \\$props = defineProps<{$0}>()"
+  },
+  "defineEmits Full": {
+    "prefix": "@defineEmits",
+    "body": "const \\$emit = defineEmits<{$0}>()"
+  }
+}
