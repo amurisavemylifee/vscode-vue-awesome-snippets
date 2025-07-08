@@ -1,31 +1,31 @@
 {
   "Vue Ref": {
     "prefix": "@ref",
-    "body": ["ref(${0:null})"]
+    "body": ["ref(${0:null});"]
   },
 
   "Vue Reactive": {
     "prefix": "@reactive",
-    "body": "reactive({$0})"
+    "body": "reactive({$0});"
   },
 
   "Vue Computed": {
     "prefix": "@computed",
-    "body": "computed(()=>{\n\treturn $0\n})"
+    "body": "computed(()=>{\n\treturn $0\n});"
   },
 
   "Vue Lifecycle": {
     "prefix": "@lifecycle",
-    "body": "${1|onBeforeMount,onMounted,onBeforeUnmount,onUnmounted,onUpdated,onBeforeUpdate|}(() => {\n\t$0\n})"
+    "body": "${1|onBeforeMount,onMounted,onBeforeUnmount,onUnmounted,onUpdated,onBeforeUpdate|}(() => {\n\t$0\n});"
   },
 
   "Vue Route": {
     "prefix": "@route",
-    "body": "const \\$route = useRoute()"
+    "body": "const \\$route = useRoute();"
   },
 
   "Vue Router": {
     "prefix": "@router",
-    "body": "const \\$router = useRouter()"
+    "body": "const \\$router = useRouter();"
   }
 }
